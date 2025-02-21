@@ -1,0 +1,16 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+
+#include "SpartaGameInstance.h"
+
+USpartaGameInstance::USpartaGameInstance()
+{
+	TotalScore = 0;
+	CurrentLevelIndex = 0;
+	StageCount = 0;
+}
+
+void USpartaGameInstance::AddToScore(int32 Amount)
+{
+	TotalScore += Amount;
+}
